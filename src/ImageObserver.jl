@@ -50,7 +50,7 @@ function home(c::Connection)
             selected = 1
         end
         # update our selection
-        cm[image] = "index" => "$selected"
+        cm[dropd] = "index" => "$selected"
         # check options for folder
         selected_folder = cm[dropd]["value"]
         # and then update it.
